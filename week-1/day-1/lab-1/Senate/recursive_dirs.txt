@@ -1,0 +1,27 @@
+.
+./Iowa
+./Iowa/Democrat
+./Iowa/Republican
+./Iowa/Republican/Grassley
+./Iowa/Independent
+./New York
+./New York/Republican
+./New York/Democrat
+./New York/Democrat/Gillibrand
+./New York/Independent
+./California
+./California/Republican
+./California/Democrat
+./California/Democrat/Harris
+./California/Independent
+./Wisconsin
+./Wisconsin/Republican
+./Wisconsin/Republican/Johnson
+./Wisconsin/Democrat
+./Wisconsin/Independent
+./Michigan
+./Michigan/Republican
+./Michigan/Democrat
+./Michigan/Democrat/Stabenow
+./Michigan/Independent
+./recursive_dirs.txt
