@@ -1,0 +1,175 @@
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+}
+
+.navbar-brand > .brand-logo {
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar-menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-menu > li {
+    margin-right: 20px;
+}
+
+.navbar-menu > li > a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: hover 200ms;
+}
+
+.navbar-menu > li > a:hover {
+    color: #ddd;
+}
+
+.header { 
+    height: 400px;
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+    ),
+    url('header.jpg');
+    background-position: center center;
+    color: #fff;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header h1 {
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.header p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+.header a {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    max-width: 200px;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: center;
+    transition: all 200ms;
+}
+
+.header a:hover { 
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.container p {
+    line-height: 35px;
+}
+
+.float-right {
+    float: right;
+    display: block;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.section h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.section p {
+    max-width: 800px;
+}
+
+.reverse-section p {
+    margin-left: auto;
+}
+
+.reverse-section h1, .reverse-section p {
+    text-align: right;
+}
+
+
+#about {
+    margin-top: 100px;
+}
+
+.footer {
+    height: 250px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100%;
+}
+
+.footer .link-set {
+    margin-right: 80px;
+}
+
+.footer .link-set ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .link-set ul li {
+    margin-bottom: 5px;
+}
+
+.footer .link-set ul a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+.footer .link-set ul a:hover {
+    color: #fff;
+}
+
+.footer .link-set .link-set-header {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
