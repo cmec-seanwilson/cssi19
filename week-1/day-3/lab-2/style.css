@@ -1,0 +1,22 @@
+body {
+    padding-bottom: 105%;
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    margin-bottom: 35px;
+}
+
+a {
+    border: 6px dotted red;
+    padding: 10px 15px;
+    width: 450px;
+    display: inline-block;
+}
+
+a:hover, a:visited { 
+    text-decoration: none;
+}
