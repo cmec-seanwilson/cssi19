@@ -49,4 +49,4 @@ familyAlarm('Dad', '6:00 AM')
 familyAlarm('Bro', '10:00 PM')
 importantAlarm('If you\'re late one more time, you\'ll be fired!')
 snoozeAlarm(3)
-wakeUpEach(21);
+wakeUpEach(21)
