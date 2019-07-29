@@ -26,7 +26,19 @@ function l (a, b, c) {
     return (-b + Math.sqrt(b**2 + 4*a*c)) / (2*a)
 }
 
+function l_revised (a, b, c) {
+    let d = b**2 - 4 * a * c
+    if (d >= 0) {
+        let srd = Math.sqrt(d)
+        return (-1 * b + srd) / 2*a
+    } else {
+        return NaN
+    }
+}
+
 console.log(
-    i(4, 3),
-    i(3, 4)
+    l(1, 4, 4),
+    l_revised(1, 4, 4),
+    l(1, 1, -1),
+    l_revised(1, 1, -1)
 )

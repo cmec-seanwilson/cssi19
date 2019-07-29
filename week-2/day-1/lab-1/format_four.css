@@ -1,0 +1,52 @@
+/*
+ * Copyright 2018 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+ .container {
+    display: grid;
+    /* Style rows and columns */
+  }
+  
+  #title {
+    grid-column: 1 /*this should span the entire page*/;
+  }
+
+#messages .message {
+    margin-top: 15px;
+
+}
+
+#messages .message > .message-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+#messages .message .author {
+    font-size: 20px;
+}
+
+#messages .message .time {
+    margin-left: auto;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+#messages .message > .message-body p {
+    margin-bottom: 0;
+}
+  
+  /* Style family members */
