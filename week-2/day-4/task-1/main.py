@@ -3,14 +3,21 @@ import math
 def Factors(x):
     factors = []
     originalFactor = abs(x)
-    for i in range(1, originalFactor):
+    for i in range(1, originalFactor + 1):
         if originalFactor % i == 0:
             factors.append(i)
         i += 1
     print factors
 
-# def CountToN(x):
-#     for i in range(0, abs(x) * 1):
-#         print i
+Factors(9)
 
-# CountToN(15)
+# def CountToN(x):
+#     try:
+#         x = int(x)
+#         for i in range(1, abs(x) + 1):
+#             print i
+#     except ValueError as error:
+#         print 'Enter a valid number'
+
+# num = raw_input('Enter a number: ')
+# CountToN(num)
