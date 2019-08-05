@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme App</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Create a meme</h1>
+    <button id="add_line_btn">Add Line</button>
+    <form action="/meme" method="post">
+        <div class="lines">
+            <template id="line-template">
+                <div class="line">
+                    <input type="text" name="line[]" placeholder="Your meme line here">
+                    <button class="remove_line_btn">Remove</button>
+                </div>
+            </template>
+            <div class="line">
+                <input type="text" name="line[]" placeholder="Your meme line here">
+            </div>
+        </div>
+
+        <button type="submit">Create your meme</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/assets/script.js"></script>
+</body>
+</html>

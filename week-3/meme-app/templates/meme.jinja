@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Your Meme</h1>
+    <!--The image needs to be rendered for each new meme
+    so set the div's background-image property inline -->
+    <div id="meme-div">
+        <img src="{{ bg_image }}" alt="Meme Background Image">
+        <div class="overlay">
+            {% for line in lines %}
+                <p>{{ line }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <a href="/">Go Back</a>
+</body>
+</html>

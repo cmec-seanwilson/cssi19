@@ -1,0 +1,35 @@
+.lines .line {
+    margin-bottom: 15px;
+}
+
+#add_line_btn {
+    margin-bottom: 15px;
+}
+
+form > button[type="submit"] {
+    margin-top: 25px;
+}
+
+#meme-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#meme-div .overlay {
+    position: absolute;
+    bottom: 50px;
+    padding: 15px;
+}
+
+#meme-div img {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+}
+
+#meme-div p {
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+    font-weight: 800;
+}
