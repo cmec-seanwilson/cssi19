@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Favorite Cities</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>My favorite cities</h1>
+    <ul id="fav-cities">
+        {% for city in cities %}
+            <li id="{{ city.slug }}">
+                <span class="name">{{ city.name }}</span>
+                <button class="remove-city">Remove City</button>
+            </li>
+        {% endfor %}
+    </ul>
+    <hr>
+    <h1>Add more favorites</h1>
+    <button id="add-city">Add City</button>
+    <form action="/" method="post" id="add-city-form">
+        <div>
+            <input type="text" name="city[]">
+        </div>
+        <div id="removed-cities">
+        </div>
+        <template>
+            <div>
+                <input type="text" name="city[]">
+                <button class="remove-city">Remove</button>        
+            </div>
+        </template>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="/assets/script.js"></script>
+</body>
+</html>

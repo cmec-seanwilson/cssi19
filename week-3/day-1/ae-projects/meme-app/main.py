@@ -14,7 +14,9 @@ memeBackgrounds = [
     'https://video-images.vice.com/articles/5ae37ca3d7a39f000a7328ad/lede/1524858049454-Screen_Shot_2018-03-28_at_113259_AM.jpeg?crop=0.5625xw%3A1xh%3Bcenter%2Ccenter&resize=650%3A*&output-quality=55',
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mocking-spongebob-1556133078.jpg',
     'https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F748607%252F73afa0f3-7ef2-4a95-9384-d882abd6b684.png%252F950x534__filters%253Aquality%252880%2529.png?signature=Sg4DErLyhoUELvQhvVxjV60xPsc=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com',
-    'http://thinkingmeme.com/wp-content/uploads/2018/02/Roll-Safe-Think-About-It.jpg'
+    'http://thinkingmeme.com/wp-content/uploads/2018/02/Roll-Safe-Think-About-It.jpg',
+    'https://media2.giphy.com/media/9JmaNq2uwAab01xKIV/giphy.gif',
+    'https://media0.giphy.com/media/l1taVz9esdyGNiUVi/giphy.gif'
 ]
 
 jinja_env = jinja2.Environment(
